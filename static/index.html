@@ -1,0 +1,22 @@
+<html>
+
+  <head>
+    <title>Growler - better than Twitter</title>
+
+  </head>
+
+  <body>
+    <h1>Growler</h1>
+
+    <form action='/api/growl' method="POST">
+      Name:
+      <input name="name" type="text" />
+      Growl:
+      <input name="growl" type="text" maxlength="76" />
+      <input type="submit" />
+    </form>
+
+    <div id="feed">
+    </div>
+  </body>
+</html>
